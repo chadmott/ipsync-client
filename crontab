@@ -1,0 +1,3 @@
+#this is your cron job
+0 * * * * curl https://your.api.endpoint\?authcode\=AUTHCODE >> /var/log/cron.log 2>&1
+
